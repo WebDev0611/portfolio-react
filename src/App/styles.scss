@@ -1,0 +1,10 @@
+@import url(https://fonts.google.com/?selection.family=Roboto);
+
+$font-stack: 'Roboto', sans-serif;
+$color: #ffffff;
+$background-color: #0f0f0f;
+
+html, body {
+    font-family: $font-stack;
+    color: $color;
+}

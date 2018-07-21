@@ -1,0 +1,214 @@
+#company-container {
+  max-width: 720px;
+  color: #4d4d4d;
+
+  .form-control {
+    border: solid 1px #d9d9d9;
+    width: 340px;
+  }
+  hr {
+    margin-top: 65px;
+    width: 700px;
+    background-color: #ffffff;
+  }
+
+  .header {
+    padding-top: 110px;
+    
+    img {
+      width: 36px;
+    }
+    h2 {
+      margin-left: 13px;
+      margin-top: 4px;
+      font-size: 24px;
+      color: #000000;
+    }
+  }
+  .notice {
+    max-width: 420px;
+    margin-top: 23px;
+    font-size: 16px;
+    line-height: 1.81;
+    color: #4d4d4d;
+  }
+
+  .nav-tabs {
+    margin-top: 65px;
+    width: 100%;
+    border-bottom: 1px solid #f2f2f2;
+
+    li {
+      padding: 0 50px 9px 17px;
+
+      a {
+        text-decoration: none;
+        color: #4d4d4d;
+      }
+
+      &.active {
+        border-bottom: 1px solid #0095ff;
+
+        a {
+          color: #0095ff;
+        }
+      }
+    }
+  }
+  .company-info {
+    h2 {
+      margin-top: 70px;
+      margin-bottom: 51px;
+      font-size: 20px;
+      color: #000000;
+    }
+    .logo {
+      margin-top: 26px;
+    }
+    button {
+      max-width: 155px;
+      height: 36px;
+      box-shadow: 0 2px 2px 0 rgba(41, 42, 43, 0.2);
+      border: solid 1px rgba(206, 206, 206, 0.3);
+      font-size: 15px;
+      color: #4d4d4d;
+  
+      img {
+        width: 16px;
+        border-radius: 3px;
+        box-shadow: 0 2px 2px 0 rgba(41, 42, 43, 0.2);
+        background-color: #ffffff;
+        border: solid 1px rgba(206, 206, 206, 0.3);
+      }
+    }
+    p {
+      margin: 2px 0 0 26px;
+      max-width: 107px;
+      height: 14px;
+      font-size: 12px;
+      color: #4d4d4d;
+    }
+    .img-upload {
+      margin: 24px 0 0 -15px;
+      max-width: 115px;
+      height: 115px;
+      background-color: #f4f3f3;
+      border: solid 1px #efefef;
+    }
+    .telephone,
+    .zip,
+    .line-1 {
+      margin-top: 26px;
+    }
+    .website,
+    .country,
+    .line-2 {
+      margin-top: 26px;
+      margin-left: 20px;
+    }
+  }
+
+  .company-details {
+    h2 {
+      margin-top: 50px;
+      font-size: 20px;
+      font-weight: 500;
+      color: #000000;
+    }
+    .about {
+      margin-top: 50px;
+
+      .about-control {
+        height: 100px;
+        width: 700px;
+      }
+    }
+    .established,
+    .staff {
+      margin-top: 26px;
+    }
+    .revenue {
+      margin-top: 26px;
+      margin-left: 20px;
+    }
+  }
+  .user-info {
+    h2 {
+      margin-top: 55px;
+      font-size: 20px;
+      font-weight: 500;
+      color: #000000;
+    }
+    .full-name {
+      margin-top: 50px;
+    }
+    .position {
+      margin-top: 50px;
+      margin-left: 20px;
+    }
+    .mail {
+      margin-top: 26px;
+    }
+    .tel {
+      margin-top: 26px;
+      margin-left: 20px;
+    }
+    .sub {
+      margin: 166px 0 0 13px;
+      width: 174px;
+      height: 36px;
+      color: white;
+      font-size: 14px;
+      font-weight: lighter;
+      box-shadow: 0 2px 2px 0 rgba(41, 42, 43, 0.2);
+      background-color: #0095ff;
+    }
+  }
+}
+//----------------------@Modal@-------------------//
+  .modal-background {
+    height: 100%;
+    background-image: linear-gradient(to bottom, #0b0b0b, #000000);
+    border: 'solid 1px #202020';
+    border-radius: 4px;
+    box-shadow: 0px 0px 25px 0px #111;
+
+    .logo-div {
+      text-align: center;
+
+      .modal-logo {
+        width: 44px;
+        height: 44px;
+        margin-top: -20px;
+      }
+    }
+    .body-modal {
+      text-align: center;
+
+      .modal-h2-1,
+      .modal-h2-2 {
+        margin-top: 35px;
+        font-size: 24px;
+        font-weight: lighter;
+        color: #ffffff;
+      }
+      .modal-p {
+        margin-top: 15px;
+        font-size: 16px;
+        font-weight: lighter;
+        color: #0095ff;
+      }
+      .modal-btn {
+        font-size: 14px;
+        font-weight: lighter;
+        text-align: center;
+        color: #ffffff;
+        width: 280px;
+        height: 36px;
+        border-radius: 4px;
+        border-color: #000000;
+        background-image: linear-gradient(to bottom, #39b54a, #34aa44 98%);
+      }
+    }
+  }
+
